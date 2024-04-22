@@ -1,0 +1,124 @@
+/* Page Rapper */
+#entirePage{
+    padding: 0 1rem;
+}
+
+/* Menu _layout _letters*/
+#layoutMenu {
+    display: flex;
+    background-color: grey;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.lettersMenu {
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: left;
+}
+
+.lettersMenu:hover {
+    transition: background-color 0.5s ease-out;
+    background-color: rgb(169, 166, 172);
+    border-radius: 80px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Image main */
+#layoutTitle{
+font-size: 100px;
+}
+
+.welcomeImage {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 100px;
+}
+
+ /* Welcome Title */
+ #layoutTitle{
+    border-radius: 10px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+ }
+
+ .welcomeTitle{
+    font-size: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: left;
+ }
+
+
+ /* Paragraph Styling */
+.paragraph{
+    font-size: 80px;
+    text-align: justify;
+}
+
+/* Card Items */
+#items {
+    justify-content: space-between;
+    display: flex;
+    column-gap:  16px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.item {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lettersItem{
+    font-size: 80px;
+    justify-self: center;
+}
+
+.firstItem{
+    width: 1400px;
+    height: 880px;
+}
+
+/* Button */
+.button:hover {
+    background-color: blueviolet ;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+.button {
+    background-color: rgb(44, 102, 177);
+    color: aliceblue;
+    font-size: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 100px;
+
+}
+
+/* Footer */
+.footerStyling{
+    display: flex;
+    background-color: grey;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+

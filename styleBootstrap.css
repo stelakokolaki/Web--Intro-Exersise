@@ -1,0 +1,91 @@
+Page Rapper
+#entirePage{
+    padding: 0 1rem;
+}
+
+/* Menu _layout _letters*/
+#layoutMenu {
+    display: flex;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 0 5% 0 5%;
+}
+
+.lettersMenu {
+    font-size: 24px;
+    margin: 0 2% 0 2%;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: left;
+}
+
+.lettersMenu:hover {
+    transition: background-color 0.5s ease-out;
+    background-color: rgb(169, 166, 172);
+    border-radius: 80px;
+    margin-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Image main */
+#layoutTitle{
+font-size: 100px;
+}
+
+.welcomeImage {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 100px;
+}
+
+ /* Welcome Title */
+ #layoutTitle{
+    border-radius: 24px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+ }
+
+ .welcomeTitle{
+    font-size: 24px;
+    padding-top: 24px;
+    padding-left: 64px;
+    padding-right: 64px;
+    align-items: left;
+ }
+
+
+ /* Paragraph Styling */
+.paragraph{
+    font-size: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: justify;
+}
+
+/* Card Items */
+#items {
+
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.item{
+    margin: 0 2% 0 2%;
+}
+
+
+.lettersItem{
+    font-size: 16px;
+    justify-self:auto;
+}
+
+
+/* Footer */
+.footerStyling{
+
+}
+
